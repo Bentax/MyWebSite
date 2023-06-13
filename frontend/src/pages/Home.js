@@ -12,6 +12,13 @@ export default function Home() {
                     <br /><a href="/product/486" className="productLink">Eat. Sleep. Code. Repeat.</a>
                 </li>
             </ul>
+            <button
+  data-sellix-product="64884b1838400"
+  type="submit"
+  alt="Buy Now with sellix.io"
+>
+  Purchase
+</button>
         </>
     )
 }
