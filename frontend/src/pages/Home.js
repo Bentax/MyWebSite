@@ -13,12 +13,9 @@ export default function Home() {
                 </li>
             </ul>
             <button
-  data-sellix-product="64884b1838400"
-  type="submit"
-  alt="Buy Now with sellix.io"
->
-  Purchase
-</button>
+                data-sellix-product="64884b1838400"
+                type="submit"
+                alt="Buy Now with sellix.io">Purchase</button>
         </>
     )
 }
