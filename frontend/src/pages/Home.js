@@ -2,6 +2,11 @@ export default function Home() {
     return (
         <>
             <h1>Homepage</h1>
+            <button
+                className="button"
+                data-sellix-product="6489b48da784f"
+                type="submit"
+                alt="Buy Now with sellix.io">💳Daily Subscribe</button>
             <ul className="productBox">
                 <li>
                     <a href="/product/143" className="productLink"><img className="productImage" src={require('../assets/images/good-day-to-code.jpg')} alt="It's a good day to code"/></a>
@@ -13,9 +18,10 @@ export default function Home() {
                 </li>
             </ul>
             <button
+                className="button"
                 data-sellix-product="64884b1838400"
                 type="submit"
-                alt="Buy Now with sellix.io">Purchase</button>
+                alt="Buy Now with sellix.io">💳Monthly Subscribe</button>
         </>
     )
 }
